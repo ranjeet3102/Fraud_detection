@@ -144,19 +144,4 @@ make format    # Auto-format code
 * CI/CD pipeline via GitHub Actions
 
 
-## Author
-
-**Sanjay** – Aspiring Data Scientist on a journey to build industry-grade ML pipelines.
-*Project built with a focus on clarity, modularity, and real-world applicability.*
-
-
-## License
-
-MIT License. Free to use for educational or commercial purposes.
-
-#Here is a Blog about this Project:
-https://fraud-detection-end2end.hashnode.dev/building-a-production-grade-insurance-fraud-detection-system-with-streamlit-xgboost-and-mlops-slug-insurance-fraud-detection-mlops
-
-#Linked-IN:
-www.linkedin.com/in/sanjayram-data
 
