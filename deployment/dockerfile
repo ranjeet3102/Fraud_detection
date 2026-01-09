@@ -1,0 +1,12 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY deployment/fastapi_app.py ./fastapi_app.py
+COPY deployment/gunicorn_config.py ./gunicorn_config.py
+COPY ../models ../models
+
+EXPOSE 8000
+CMD ["gunicorn", "fastapi_app:app", "-c", "gunicorn_config.py"]

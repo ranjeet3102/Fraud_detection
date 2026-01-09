@@ -1,0 +1,7 @@
+{
+  "fraud": {
+    "type": "int",
+    "description": "Target label indicating fraud (1) or not (0)",
+    "values": [0, 1]
+  }
+}

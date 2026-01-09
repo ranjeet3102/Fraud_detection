@@ -1,0 +1,9 @@
+model_path: ../models/final_model.pkl
+scaler_path: ../models/scaler.pkl
+required_features:
+  - age
+  - policy_sales_channel
+  - gender
+  - previously_insured
+  - vehicle_age
+  - vehicle_damage
